@@ -7,12 +7,27 @@ https://adventofcode.com/2024
 
 ## Format :
 
-Les solutions sont proposés en JavaScript :
+Les solutions sont proposés en JavaScript.
 
 Un dossier par jour avec un script pour la résolution des deux problèmes du jour :
 
 ```
 day1
-├── day1.js
+├── index.js
+├── index.spec.js
 └── input.txt
+```
+
+## Quick Start
+
+Lancer le script pour un jour en particuliet:
+
+```
+bun start 1
+```
+
+Lancer tous les tests :
+
+```
+bun test
 ```
